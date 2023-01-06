@@ -1,0 +1,270 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'tool_reportbuilder', language 'es', version '4.0'.
+ *
+ * @package     tool_reportbuilder
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['accesstab'] = 'Accesos';
+$string['actions'] = 'Acciones';
+$string['addacondition'] = 'Agregar condición';
+$string['addafilter'] = 'Agregar filtro';
+$string['addcolumn'] = 'Agregar columna';
+$string['adddefault'] = 'Agregar configuración por defecto';
+$string['addemails'] = 'Agregar emails manualmente';
+$string['addfieldbyname'] = 'Agregar el campo \'{$a}\' al reporte';
+$string['addreport'] = 'Nuevo reporte';
+$string['addschedule'] = 'Nueva planificación';
+$string['addusers'] = 'Agregar usuarios manualmente';
+$string['addusers_help'] = 'Todos los usuarios agregados recibirán este reporte independientemente de su posición o departamento';
+$string['aggregation_groupconcat'] = 'Valores separados por comas';
+$string['aggregation_max'] = 'Máximo';
+$string['aggregation_min'] = 'Mínimo';
+$string['aggregation_percent'] = 'Porcentaje';
+$string['aggregation_unique'] = 'Valores únicos';
+$string['and'] = 'y';
+$string['audience'] = 'Audiencia';
+$string['audiencejobadd'] = 'Agregar un cargo';
+$string['audiencejobremove'] = 'Eliminar un cargo';
+$string['audiencejobs'] = 'Cargos';
+$string['audiencejobs_help'] = 'Los usuarios verán este reporte si poseen uno de los cargos seleccionados debajo';
+$string['audiencejobsempty'] = 'No se asignaron cargos';
+$string['audiences'] = 'Audiencias';
+$string['authmethod'] = 'Método de autenticación';
+$string['availableinalltenants'] = 'Disponible en todos los micrositios';
+$string['dateanyvalue'] = 'Cualquier valor';
+$string['datecreated'] = 'Creado';
+$string['datecurrent'] = 'Vigente';
+$string['dateinthefuture'] = 'En el futuro';
+$string['dateinthepast'] = 'En el pasado';
+$string['dateisempty'] = 'está vacío';
+$string['dateisnotempty'] = 'no está vacío';
+$string['datelast'] = 'Últimos... días';
+$string['datenext'] = 'Próximos... días';
+$string['dateprevious'] = 'Previo';
+$string['daterange'] = 'Rango de fecha';
+$string['daterangefrom'] = 'De';
+$string['daterangeto'] = 'Para';
+$string['datetostart'] = 'Fecha';
+$string['dateupcoming'] = 'Próxima';
+$string['debugsqlparams'] = 'Parámetros';
+$string['debugsqlquery'] = 'Consulta actual';
+$string['deleteaudience'] = 'Borrar audiencia \'{$a}\'';
+$string['deletecolumn'] = 'Borrar columna \'{$a}\'';
+$string['deletecondition'] = 'Borrar condición \'{$a}\'';
+$string['deletefilter'] = 'Borrar filtro';
+$string['deletereport'] = 'Borrar reporte';
+$string['deletereportmsg'] = 'Estás seguro de querer borrar el reporte \'{$a}\' y todos los datos asociados? Esta acción no se puede deshacer.';
+$string['deletereportsuccess'] = 'El reporte fue eliminado';
+$string['deleteschedule'] = 'Borrar planificación';
+$string['desc'] = 'La columna \'{$a}\' se muestra en orden descendente';
+$string['description'] = 'Descripción';
+$string['description_help'] = 'Incluir una descripción sobre el objetivo del reporte.';
+$string['duplicate'] = 'Duplicar';
+$string['duplicatereport'] = 'Duplicar reporte';
+$string['editaudience'] = 'Editar audiencia';
+$string['editinglegacywarning'] = 'Estás editando un reporte creado en una versión obsoleta del Editor de reportes. Se recomienda convertirlo a la última versión.';
+$string['editmode'] = 'Cambiar a vista de edición';
+$string['editreport'] = 'Editar contenido';
+$string['editreportdetails'] = 'Editar detalles';
+$string['editreportname'] = 'Editar el nombre del reporte';
+$string['editschedule'] = 'Editar planificación';
+$string['edittitle'] = 'Editar reporte \'{$a}\'';
+$string['enablesortingon'] = 'Habilitar ordenamiento en la columna \'{$a}\'';
+$string['enteremail'] = 'Por favor, ingresar un correo electrónico válido y presionar \\u0027enter\\u0027';
+$string['entity_course_enrolment'] = 'Matriculación';
+$string['entitycertificate'] = 'Certificado';
+$string['entitycertificateissue'] = 'Emisión de certificado';
+$string['entitycourse'] = 'Curso';
+$string['entitycourseaccess'] = 'Acceso al curso';
+$string['entitycoursecompletion'] = 'Completud del curso';
+$string['entitycourseenrolment'] = 'Matriculación al curso';
+$string['entitydatastorecoursecompletion'] = 'Finalización del curso desde el almacén de datos';
+$string['entityreportbuilder'] = 'Reportes personalizados';
+$string['entityschedule'] = 'Planificación';
+$string['entityuser'] = 'Usuario';
+$string['error:mustselectformat'] = 'Debés seleccionar un formato.';
+$string['error:mustselectsource'] = 'Debés seleccionar una fuente de datos para el reporte.';
+$string['errormanageschedules'] = 'No tenés permiso para gestionar planificaciones';
+$string['errormissingreportsource'] = 'No se pudo encontrar la fuente de datos configurada';
+$string['errornorecipients'] = 'Debés seleccionar destinatarios para planificar el envío del reporte';
+$string['errorunavailablereportsource'] = 'La fuente del reporte no está disponible';
+$string['eventreportcreated'] = 'Reporte creado';
+$string['eventreportdeleted'] = 'Reporte eliminado';
+$string['eventreportschedulecreated'] = 'Planificación del reporte creada';
+$string['eventreportscheduledeleted'] = 'Planificación del reporte eliminada';
+$string['eventreportscheduleupdated'] = 'Planificación del reporte actualizada';
+$string['eventreportupdated'] = 'Reporte actualizado';
+$string['eventreportviewed'] = 'Reporte visto';
+$string['expandcardview'] = 'Ampliar la vista de tarjeta';
+$string['expandconditions'] = 'Desplegar condiciones';
+$string['expandfilters'] = 'Desplegar filtros';
+$string['expandsorting'] = 'Desplegar ordenamiento';
+$string['exportselectall'] = 'Exportar todos los reportes personalizados';
+$string['exportselectlimit'] = 'Exportar reportes personalizados específicos...';
+$string['filtercannotbeconverted'] = 'El filtro \'{$a}\' no puede convertirse';
+$string['filternotvalid'] = 'El filtro debe ser una subclase del filter_base.';
+$string['filtersbutton'] = 'Mostrar/ocultar el menú de filtros';
+$string['filtershelp'] = 'Filtros';
+$string['filtershelp_help'] = 'Listado de filtros que no aplican automáticamente, pero que están disponibles para usuarios.';
+$string['filterstab'] = 'Filtros';
+$string['format'] = 'Formato';
+$string['fullnamewithlink'] = 'Nombre completo con link al perfil';
+$string['fullnamewithpicture'] = 'Nombre completo con imagen';
+$string['fullnamewithpicturelink'] = 'Nombre completo con imagen y link al perfil';
+$string['gotocorerb'] = 'Ir a reportes personalizados';
+$string['hascurrentjobs'] = 'Tiene cargos actuales';
+$string['hassystemrole'] = 'Rol de sistema asignado';
+$string['importlogerrorinvalidaudience'] = 'Audiencia inválida o faltante';
+$string['importlogerrorinvalidformat'] = 'Formato de la planificación inválida o faltante';
+$string['importlogerrorinvalidtype'] = 'Tipo de reporte inválido';
+$string['importschedulelogerror'] = 'No se pudo importar la planificación guardada';
+$string['importschedulelogsuccess'] = 'Planificación del reporte importada';
+$string['importselectall'] = 'Importar todos los reportes personalizados';
+$string['importselectlimit'] = 'Importar reportes personalizados específicos...';
+$string['invalidcolumn'] = 'Columna inválida';
+$string['invalidcondition'] = 'Condición inválida';
+$string['invalidemail'] = 'Este correo electrónico \'{$a}\' es inválido';
+$string['invalidfilter'] = 'Filtro inválido';
+$string['ismemberofcohort'] = 'Miembro de la cohorte';
+$string['isnotempty'] = 'No está vacío';
+$string['lastcourseaccess'] = 'Último acceso al curso';
+$string['lastmodified'] = 'Última modificación';
+$string['lastsenton'] = 'Último enviado el';
+$string['legacyreportsview'] = 'Ver reportes';
+$string['legacyreportswarning'] = 'Algunos reportes no fueron actualizados a la última versión.';
+$string['lessthanaday'] = 'Menos de un día';
+$string['managereports'] = 'Gestionar reportes personalizados';
+$string['manuallyaddedusers'] = 'Usuarios añadidos manualmente';
+$string['message'] = 'Mensaje';
+$string['modifiedby'] = 'Modificado por';
+$string['movecolumn'] = 'Mover columna \'{$a}\'';
+$string['movefilter'] = 'Mover filtro \'{$a}\'';
+$string['movesorting'] = 'Mover el ordenamiento de la columna \'{$a}\'';
+$string['never'] = 'Nunca';
+$string['newaggregationfor'] = 'Nueva agregación para la columna \'{$a}\'';
+$string['newschedule'] = 'Nueva planificación';
+$string['newvaluefor'] = 'Nuevo valor para \'{$a}\'';
+$string['noaggregation'] = 'Sin agregación';
+$string['noaudiences'] = 'No hay audiencias';
+$string['noaudiencesalert'] = 'Planificar el envío de este reporte será posible sólo si una o más audiencias son agregadas. Por favor, dirigite a la etiqueta "Audiencias" y creá al menos una audiencia para continuar.';
+$string['noavailablecohorts'] = 'Cohortes no disponibles';
+$string['nocolumnsselected'] = 'Agregar una columna al reporte';
+$string['noconditions'] = 'No hay condiciones seleccionadas.';
+$string['nofilters'] = 'No hay filtros seleccionados.';
+$string['nosortablecolumns'] = 'Columnas ordenables aún no añadidas.';
+$string['numberanyvalue'] = 'Cualquier valor';
+$string['numberbetween'] = 'En un rango entre';
+$string['numberequalorgreaterthan'] = 'Mayor o igual';
+$string['numberequalorlessthan'] = 'Menor o igual';
+$string['numberequalto'] = 'Igual';
+$string['numbergreaterthan'] = 'Mayor que';
+$string['numberisempty'] = 'Está vacío';
+$string['numberisnotempty'] = 'No está vacío';
+$string['numberlessthan'] = 'Menos de';
+$string['or'] = 'O';
+$string['pluginname'] = 'Editor de reportes - versión obsoleta';
+$string['preview'] = 'Previa';
+$string['previewmode'] = 'Cambiar a vista previa';
+$string['privacy:metadata:preference:filters_report'] = 'Guarda las propiedades de filtro de usuario para un reporte';
+$string['privacy:metadata:reportbuilder'] = 'Información sobre reportes personalizados';
+$string['privacy:metadata:reportbuilder:name'] = 'El nombre del reporte';
+$string['privacy:metadata:reportbuilder:source'] = 'La fuente de datos para el reporte';
+$string['privacy:metadata:reportbuilder:timecreated'] = 'Momento en el que fue creado el reporte';
+$string['privacy:metadata:reportbuilder:timemodified'] = 'Momento en el que fue modificado por última vez';
+$string['privacy:metadata:reportbuilder:usermodified'] = 'El ID del usuario que modificó por última vez el reporte';
+$string['privacy:metadata:reportbuilder_audience'] = 'Información sobre audiencias de reportes personalizados';
+$string['privacy:metadata:reportbuilder_audience:classname'] = 'La clase usada para este reporte';
+$string['privacy:metadata:reportbuilder_audience:configdata'] = 'La configuración de la audiencia';
+$string['privacy:metadata:reportbuilder_audience:reportid'] = 'El ID del reporte al que pertenece la audiencia';
+$string['privacy:metadata:reportbuilder_audience:timecreated'] = 'Momento en el que fue creada la audiencia';
+$string['privacy:metadata:reportbuilder_audience:timemodified'] = 'Momento en el que fue modificada la audiencia';
+$string['privacy:metadata:reportbuilder_audience:usercreated'] = 'El ID del usuario que creó la audiencia';
+$string['privacy:metadata:reportbuilder_audience:usermodified'] = 'El ID del usuario que modificó la audiencia';
+$string['privacy:metadata:reportbuilder_schedule'] = 'Información sobre planificaciones de los reportes personalizados';
+$string['privacy:metadata:reportbuilder_schedule:format'] = 'El formato de los datos del reporte planificado';
+$string['privacy:metadata:reportbuilder_schedule:lastsenton'] = 'Momento en el que la planificación fue enviada por última vez';
+$string['privacy:metadata:reportbuilder_schedule:message'] = 'El contenido del mensaje planificado';
+$string['privacy:metadata:reportbuilder_schedule:name'] = 'El nombre de la planificación';
+$string['privacy:metadata:reportbuilder_schedule:recurrence'] = 'Con qué frecuencia se repite la planificación';
+$string['privacy:metadata:reportbuilder_schedule:reportid'] = 'El ID de la planificación del reporte pertenece a';
+$string['privacy:metadata:reportbuilder_schedule:scheduled'] = 'Momento en el que debe comenzar la planificación';
+$string['privacy:metadata:reportbuilder_schedule:subject'] = 'El asunto incluido en el mensaje planificado';
+$string['privacy:metadata:reportbuilder_schedule:timecreated'] = 'Momento en el que fue creada la planificación';
+$string['privacy:metadata:reportbuilder_schedule:timemodified'] = 'Momento en el que fue actualizada por última vez la planificación';
+$string['privacy:metadata:reportbuilder_schedule:usercreated'] = 'El ID del usuario que creó la planificación';
+$string['privacy:metadata:reportbuilder_schedule:usermodified'] = 'El ID del usuario que modificó por última vez la planificación';
+$string['privacywarning'] = 'ADVERTENCIA: antes de agregar cualquier correo electrónico, asegurate de contar con la base legal para hacerlo y que esto cumpla con la Ley de Privacidad que aplica a tu organización.';
+$string['profiledepartment'] = 'Departamento de perfil';
+$string['recipients'] = 'Destinatarios';
+$string['recurrence'] = 'Recurrencia';
+$string['recurrenceannualy'] = 'Anualmente';
+$string['recurrencedaily'] = 'Diariamente';
+$string['recurrencedailyweekday'] = 'Diariamente - Días de la semana';
+$string['recurrencedonorepeat'] = 'No repite';
+$string['recurrencemonthly'] = 'Mensualmente';
+$string['recurrenceweekly'] = 'Semanalmente';
+$string['reg_wpreports'] = 'Número de reportes personalizados ({$a})';
+$string['removechedulesuccess'] = 'La planificación fue eliminada.';
+$string['removeconditionsuccess'] = 'La condición \'{$a}\' fue eliminada.';
+$string['report'] = 'Reporte';
+$string['report_access_list'] = 'Reporte del sistema para listar usuarios con acceso a un informe determinado';
+$string['reportbuilder:edit'] = 'Editar la configuración de un reporte';
+$string['reportbuilder:read'] = 'Ver reportes';
+$string['reportconverted'] = 'El reporte fue satisfactoriamente actualizado.';
+$string['reportcoursecompletion'] = 'Completud de curso desde el almacén de datos';
+$string['reportcourseenrolmentcompletion'] = 'Matriculaciones y completudes del curso';
+$string['reportcourseenrolments'] = 'Matriculaciones al curso';
+$string['reportcourseparticipants'] = 'Participantes del curso';
+$string['reportname'] = 'Nombre del reporte';
+$string['reportname_help'] = 'Incluir un nombre para el reporte';
+$string['reportsource'] = 'Fuente de datos del reporte';
+$string['reportstab'] = 'Reportes';
+$string['reportuserslist'] = 'Listas de usuarios';
+$string['resetall'] = 'Reiniciar todos';
+$string['resettable'] = 'Reiniciar tabla';
+$string['rolemanager'] = 'Gestor del editor de reportes';
+$string['saveandcontinue'] = 'Guardar y continuar';
+$string['schedules'] = 'Planificaciones';
+$string['selectacondition'] = 'Seleccionar una condición';
+$string['selectafilter'] = 'Seleccionar un filtro';
+$string['selectaggregation'] = 'Seleccionar una agregación para la columna \'{$a}\'';
+$string['selectcohorts'] = 'Seleccionar cohortes';
+$string['selectcourses'] = 'Seleccionar cursos';
+$string['selectsource'] = 'Seleccionar una fuente de datos';
+$string['send'] = 'Enviar';
+$string['send_schedulestask'] = 'Enviar planificaciones';
+$string['settings'] = 'Ajustes';
+$string['shared'] = 'Compartido';
+$string['showfirstcolumntitle'] = 'Mostrar el título de la primera columna';
+$string['sidebarbutton'] = 'Mostrar/ocultar la barra lateral';
+$string['sortingshelp'] = 'Ordenamiento';
+$string['sortingshelp_help'] = 'Ordenamiento predeterminado para el reporte';
+$string['sortingtab'] = 'Ordenamiento';
+$string['subject'] = 'Asunto';
+$string['tabletab'] = 'Tabla';
+$string['userpicture'] = 'Imagen del usuario';
+$string['usersuspended'] = 'Registro suspendido';
+$string['userviewreportas'] = 'Ver datos del reporte como';
+$string['userviewreportasnotice'] = 'El reporte puede contener datos de todos los micrositios';
+$string['viewreports'] = 'Editor de reportes';
